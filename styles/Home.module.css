@@ -1,0 +1,137 @@
+.header { 
+  background-color: #3f3f46;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  overflow: hidden;
+  align-items: center;
+  height: 4rem;
+}
+
+.odd_vip_text {
+  line-height: 0;
+  font-size: x-large;
+  color:transparent;
+  -webkit-text-stroke: 1px pink; /* Stroke color and width for WebKit browsers */
+
+}
+
+.even_vip_text {
+  line-height: 0;
+  font-size: x-large;
+  color: pink
+}
+
+.imagediv {
+  overflow: hidden;
+}
+
+.coverimage { 
+  width: 100vw;
+  height: auto;
+  background-color: lightcyan;
+
+}
+
+.deal_section {
+  background-color: #3b82f6;
+  height: 50rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.deal_section_image {
+  height: auto;
+  width: 45rem;
+}
+
+.deal_section_textdiv {
+  margin-left: 2rem;
+}
+
+.top_text {
+  color: pink;
+}
+
+.mid_text {
+  color: pink;
+  font-size:5rem;
+}
+
+.bottom_text {
+  color: white;
+  font-size: large;
+  font-weight: 500;
+  width: 80%;
+  line-height: 1.5rem;
+}
+
+.feature_textdiv {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.checkmark_icon {
+  color: pink;
+  height: 3.5rem;
+  width: auto;
+  margin-right: 1rem;
+}
+
+.feature_text_heading {
+  color: white;
+  font-size: large;
+  font-weight: 600;
+}
+
+.feature_text_para {
+  color: white;
+  font-size: medium;
+  margin-top: 1.5rem;
+}
+
+.products_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.product_div {
+  border-radius: 0.5rem;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  text-align: center;
+}
+
+.product_div:hover {
+  box-shadow: 5px 10px 5px lightgray;
+  transition: all ease-in ease-out;
+  transition-duration: 300ms;
+}
+
+.product_image_div {
+  display: flex; 
+  height: 25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.product_text_div {
+  background-color: #f3f4f6 ;
+  text-align: center;
+  font-size: x-large;
+  border-radius: 0.5rem;
+}
+
+.product_image { 
+  height: 20rem;
+  width: auto;
+}

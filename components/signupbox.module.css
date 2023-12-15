@@ -1,0 +1,40 @@
+.main {
+    background-color: pink;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.inputdiv { 
+    margin-top: 2rem;
+}
+
+.email_input {
+    background-color: white;
+    border: none;
+    width: 50rem;
+    height: 3rem;
+    margin-right: 0.5rem;
+    font-size: medium;
+    padding-left: 0.5rem;
+}
+
+.email_input::placeholder {
+  display: flex;
+  font-size: medium;
+}
+
+.email_input:focus {
+    border: none;
+    outline: none;
+}
+
+.applybtn {
+    background-color: black;
+    color:pink;
+    height: 3rem;
+    width: 15rem;
+    font-size: large;
+}
