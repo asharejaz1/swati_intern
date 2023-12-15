@@ -107,7 +107,6 @@ export default function Home() {
         <div className={styles.imagediv}>
         <Image src={Cover} alt='cover' className={styles.coverimage}/>
         </div>
-
         <SignupBox/>
 
         <div className={styles.deal_section}>
