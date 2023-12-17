@@ -117,7 +117,7 @@ export default function Products() {
 
   return (
     <>
-    <div className={styles.main_container}>
+    <div className={styles.main_container} >
         <h1 style={{textAlign:'center', paddingTop:'3rem', letterSpacing:'0.5rem', fontWeight:'600'}}>SWATI Lashes</h1>
 
 
@@ -145,7 +145,7 @@ export default function Products() {
         </div>
 
         {selectedProduct && (
-        <div className={styles.overlay_fullscreen_parent} >
+        <div className={styles.overlay_fullscreen_parent}  >
           <div className={styles.overlay_container}>
                 <RiCloseFill className={styles.overlay_closer_icon} onClick={()=>setSelectedProduct(null)}/>
                 <div className={styles.overlay_cover_image}>

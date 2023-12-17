@@ -1,6 +1,10 @@
 .main_container {
   position: relative;
+  
+}
 
+#hidden_products {
+  display: none;
 }
 
 .products_container {
