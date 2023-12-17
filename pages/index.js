@@ -40,7 +40,7 @@ export default function Home() {
 
         <SignupBox/>
          <DealSection/>
-        {/*<Products/> */}
+        <Products/>
 
         
     </>

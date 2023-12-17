@@ -51,6 +51,13 @@
     font-size: large;
 }
 
+.applybtn:hover {
+    background-color: black;
+    opacity: 80%;
+    transition: all;
+    transition-duration: 300ms;
+}
+
 .heading_text { 
     text-align: center;
     font-size: x-large;

@@ -17,7 +17,6 @@
   .deal_section_textdiv {
     margin-left: 2rem;
     margin-right: 2rem;
-    
   }
   
   .top_text {
@@ -116,5 +115,7 @@
     
     }
 
- 
+    .deal_section_textdiv {
+      width: 35rem;
+    }
   }
