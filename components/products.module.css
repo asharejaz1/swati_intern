@@ -1,3 +1,8 @@
+.main_container {
+  position: relative;
+
+}
+
 .products_container {
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -20,6 +25,7 @@
   .product_div:hover {
     box-shadow: 5px 10px 5px lightgray;
     transition: all ease-in ease-out;
+    background-color: burlywood;
     transition-duration: 300ms;
   }
   
@@ -40,27 +46,120 @@
   .product_image { 
     height: 20rem;
     width: auto;
+
+  }
+
+  .overlay_fullscreen_parent {
+    height: 100vh;
+    width: 100%;
+    overflow: none;
+    backdrop-filter: blur(20px);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .overlay_container {
+    position: relative;
+    background-color: white;
+    border-radius: 2rem;
+    height: 40rem;
+    max-width: 22rem;
+    overflow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-between;
+
+
+  }
+  
+
+
+  .overlay_closer_icon {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    height: 2rem;
+    width: auto;
+  }
+
+  .overlay_cover_image {
+    background-color: burlywood;
+    border-radius: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .add_to_cart_btn {
+    width: 90%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: pink;
+    font-weight: 600;
+    font-size: medium;
+    margin-bottom: 0.5rem;
+  }
+
+  .add_to_wish_btn {
+    width: 90%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #475569;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+    margin-bottom: 1.5rem;
+
   }
 
   @media screen and (min-width: 640px) {
     .products_container {
       grid-template-columns: repeat(1, minmax(0, 1fr));
-  
+    }
+
+    .overlay_container {
+      height: 40rem;
+      width: 25rem;
+      max-width: none;
+      
     }
   }
 
   @media screen and (min-width: 768px) {
     .products_container {
       grid-template-columns: repeat(2, minmax(0, 1fr));
-  
+
+    }
+
+    .overlay_container {
+      height: 50rem;
+      width: 35rem;
     }
   }
-
 
   @media screen and (min-width: 1024px) {
     .products_container {
       grid-template-columns: repeat(2, minmax(0, 1fr));
-  
+    }
+
+    .overlay_container {
+      height: 60rem;
+      width: 50rem;
+    }
+
+    .overlay_text_middle_div {
+      width: 35rem;
     }
   }
 

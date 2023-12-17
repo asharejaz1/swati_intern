@@ -1,3 +1,6 @@
+
+
+
 .main_header_container { 
   background-color: #3f3f46;
   overflow: hidden;
@@ -43,7 +46,6 @@
 
 }
 
-
 .imagediv {
   overflow: hidden;
   background-color: lightcyan ;
@@ -51,7 +53,7 @@
 
 .coverimage { 
   width: 100vw;
-  height: 70vh;
+  height: 65vh;
   background-color: lightcyan;
   object-fit:cover; /* Crop the image while maintaining aspect ratio */
   object-position: center; /* Center the image horizontally */

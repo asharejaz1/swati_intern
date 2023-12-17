@@ -30,7 +30,7 @@ export default function Home() {
     <>
       <TopHeadline/>
       <Navbar/>
-        {/**Header Image */}
+        {/**Header  */}
         <div className={styles.main_header_container}>
         <div className={styles.header}>
           {vipTexts}
