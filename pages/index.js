@@ -6,6 +6,7 @@ import Cover from '@/public/Cover_wide.png'
 import SignupBox from '@/components/SignupBox'
 import DealSection from '@/components/DealSection'
 import Products from '@/components/Products'
+import TopHeadline from '@/components/TopHeadline'
 
 
 
@@ -14,7 +15,7 @@ export default function Home() {
 
   
 
-  const vipTexts = Array.from({ length: 10 }, (_, index) => (
+  const vipTexts = Array.from({ length: 20 }, (_, index) => (
     <h1
       key={index}
       className={index % 2 === 0 ? styles.even_vip_text : styles.odd_vip_text}
@@ -27,10 +28,14 @@ export default function Home() {
 
   return (
     <>
+      <TopHeadline/>
       <Navbar/>
         {/**Header Image */}
+        <div className={styles.main_header_container}>
         <div className={styles.header}>
           {vipTexts}
+        </div>
+        
         </div>
 
         {/**Hero Section Cover Page */}

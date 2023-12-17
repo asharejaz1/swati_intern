@@ -97,13 +97,11 @@
     }
 
     .top_text {
-      line-height: normal;
     }
 
     .mid_text {
-      line-height: 0rem;
-      margin-bottom: 2.5rem;
       line-height: 5rem;
+
     }
 
     .bottom_text {

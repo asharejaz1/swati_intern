@@ -1,13 +1,27 @@
+.main_header_container { 
+  background-color: #3f3f46;
+  overflow: hidden;
+}
+
 .header { 
   background-color: #3f3f46;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  overflow: hidden;
   align-items: center;
   height: 4rem;
   white-space: nowrap; /* Prevent line breaks */
   letter-spacing: 0.5rem;
+  animation: scrollHorizontal 30s linear infinite;
+}
+
+@keyframes scrollHorizontal {
+  from {
+    transform: translateX(50%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 .odd_vip_text {
