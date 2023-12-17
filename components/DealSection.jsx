@@ -16,7 +16,7 @@ export default function DealSection() {
       
       <div className={styles.feature_textdiv}>
         <IoCheckmarkCircleOutline className={styles.checkmark_icon}/>
-        <div>
+        <div className={styles.feature_text_container}> 
           <h1 className={styles.feature_text_heading}>Exclusive VIP access</h1>
           <p className={styles.feature_text_para}>Shop your favourites before they sell out</p>
         </div>
@@ -24,7 +24,7 @@ export default function DealSection() {
 
       <div className={styles.feature_textdiv}>
         <IoCheckmarkCircleOutline className={styles.checkmark_icon}/>
-        <div>
+        <div className={styles.feature_text_container}>
           <h1 className={styles.feature_text_heading}>Up to 50% off</h1>
           <p className={styles.feature_text_para}>Enjoy exclusive offers before anyone else</p>
         </div>

@@ -38,9 +38,9 @@ export default function Home() {
           <Image src={Cover} alt='cover' className={styles.coverimage}/>
         </div>
 
-        {/* <SignupBox/>
-        <DealSection/>
-        <Products/> */}
+        <SignupBox/>
+         <DealSection/>
+        {/*<Products/> */}
 
         
     </>

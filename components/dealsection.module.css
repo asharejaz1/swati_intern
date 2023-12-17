@@ -3,7 +3,7 @@
     background-color: #3b82f6;
     height: 50rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     
@@ -11,11 +11,12 @@
   
   .deal_section_image {
     height: auto;
-    width: 45rem;
+    width: 20rem; 
   }
   
   .deal_section_textdiv {
     margin-left: 2rem;
+    margin-right: 2rem;
     
   }
   
@@ -26,15 +27,17 @@
   .mid_text {
     color: pink;
     font-size:5rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 0rem;
+    margin-top: 0;
+    line-height: 5rem;
   }
   
   .bottom_text {
     color: white;
     font-size: large;
     font-weight: 500;
-    width: 80%;
     line-height: 1.5rem;
+    margin-bottom: 2rem;
   }
 
   .feature_textdiv {
@@ -43,7 +46,12 @@
     flex-direction: row;
     width: fit-content;
     align-items: center;
-    
+    line-height: 1.5rem;
+  }
+
+  .feature_text_container {
+    display: flex;
+    flex-direction: column;
   }
   
   .checkmark_icon {
@@ -51,18 +59,65 @@
     height: 3.5rem;
     width: auto;
     margin-right: 1rem;
+
   }
   
   .feature_text_heading {
     color: white;
     font-size: large;
     font-weight: 600;
-    
+    margin-bottom: 0rem;
+    line-height: 0;
   }
   
   .feature_text_para {
     color: white;
     font-size: medium;
-    margin-top: 1.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 0;
     
+  }
+
+  @media screen and (min-width: 640px) {
+   
+
+    .deal_section_image {
+      width: 35rem;
+    }
+
+  }
+
+  @media screen and (min-width: 1024px) {
+
+    .deal_section {
+      flex-direction: row;
+    }
+
+    .deal_section_image {
+      width: 45rem;
+    }
+
+    .top_text {
+      line-height: normal;
+    }
+
+    .mid_text {
+      line-height: 0rem;
+      margin-bottom: 2.5rem;
+      line-height: 5rem;
+
+    }
+
+    .bottom_text {
+      width: 80%;
+
+    }
+
+    .feature_textdiv {
+    
+      line-height: 0rem;
+    
+    }
+
+ 
   }
