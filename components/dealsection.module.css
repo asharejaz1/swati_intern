@@ -1,0 +1,68 @@
+
+.deal_section {
+    background-color: #3b82f6;
+    height: 50rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .deal_section_image {
+    height: auto;
+    width: 45rem;
+  }
+  
+  .deal_section_textdiv {
+    margin-left: 2rem;
+    
+  }
+  
+  .top_text {
+    color: pink;
+  }
+  
+  .mid_text {
+    color: pink;
+    font-size:5rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .bottom_text {
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    width: 80%;
+    line-height: 1.5rem;
+  }
+
+  .feature_textdiv {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    align-items: center;
+    
+  }
+  
+  .checkmark_icon {
+    color: pink;
+    height: 3.5rem;
+    width: auto;
+    margin-right: 1rem;
+  }
+  
+  .feature_text_heading {
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    
+  }
+  
+  .feature_text_para {
+    color: white;
+    font-size: medium;
+    margin-top: 1.5rem;
+    
+  }
